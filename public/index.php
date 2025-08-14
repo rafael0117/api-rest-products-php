@@ -1,8 +1,8 @@
 <?php 
 
-require_once "../src/ProductController.php";
+require_once "../src/ProductoController.php";
 
-header("Access-Control-Allow-Origin:*")
+header("Access-Control-Allow-Origin:*");
 header("Content-Type: application/json; charset=UTF-8");
 
 $method = $_SERVER["REQUEST_METHOD"];
